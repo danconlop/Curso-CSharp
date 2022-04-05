@@ -13,7 +13,8 @@ namespace Predicate2
             List<int> list = new List<int>();
             list.AddRange(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
 
-            List<int> resultEven = list.FindAll(predicateEven);
+            //List<int> resultEven = list.FindAll(predicateEven);
+            List<int> resultEven = LambdaExpression.GetPairs();
             List<int> resultOdd = list.FindAll(predicateOdd);
 
             Console.WriteLine("Números pares:");
@@ -60,5 +61,15 @@ namespace Predicate2
                 return false;
         }
 
+    }
+
+    class LambdaExpression
+    {
+        private static List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+        public static List<int> GetPairs()
+        {
+            return list.FindAll(x => x % 2 == 0);
+        }
     }
 }
