@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bribes", "Bribes\Bribes.csproj", "{B8CF508A-FFA0-4FAC-A2B4-F6118C154094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicates", "Predicates\Predicates.csproj", "{EB36A376-B0FA-449C-BBC1-BACB8C3032FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicatesWithClasses", "PredicatesWithClasses\PredicatesWithClasses.csproj", "{979B93F9-5D49-4286-B29C-72889207FC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rotarArregloIzquierda", "rotarArregloIzquierda\rotarArregloIzquierda.csproj", "{E9C55A72-C97A-4A23-BFA0-61EDC9016A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiker", "Hiker\Hiker.csproj", "{DB0EFBE1-361E-42FB-8B54-EE12903524B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateApp", "PredicateApp\PredicateApp.csproj", "{1135013A-08F7-4EC1-A746-7FBC8FFB17CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8CF508A-FFA0-4FAC-A2B4-F6118C154094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CF508A-FFA0-4FAC-A2B4-F6118C154094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CF508A-FFA0-4FAC-A2B4-F6118C154094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CF508A-FFA0-4FAC-A2B4-F6118C154094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB36A376-B0FA-449C-BBC1-BACB8C3032FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB36A376-B0FA-449C-BBC1-BACB8C3032FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB36A376-B0FA-449C-BBC1-BACB8C3032FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB36A376-B0FA-449C-BBC1-BACB8C3032FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979B93F9-5D49-4286-B29C-72889207FC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979B93F9-5D49-4286-B29C-72889207FC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979B93F9-5D49-4286-B29C-72889207FC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979B93F9-5D49-4286-B29C-72889207FC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C55A72-C97A-4A23-BFA0-61EDC9016A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C55A72-C97A-4A23-BFA0-61EDC9016A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C55A72-C97A-4A23-BFA0-61EDC9016A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C55A72-C97A-4A23-BFA0-61EDC9016A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0EFBE1-361E-42FB-8B54-EE12903524B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0EFBE1-361E-42FB-8B54-EE12903524B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0EFBE1-361E-42FB-8B54-EE12903524B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0EFBE1-361E-42FB-8B54-EE12903524B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1135013A-08F7-4EC1-A746-7FBC8FFB17CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1135013A-08F7-4EC1-A746-7FBC8FFB17CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1135013A-08F7-4EC1-A746-7FBC8FFB17CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1135013A-08F7-4EC1-A746-7FBC8FFB17CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42BBFBE8-1F00-44F4-AFD0-149BDB551896}
+	EndGlobalSection
+EndGlobal
