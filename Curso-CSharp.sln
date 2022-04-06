@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateApp", "PredicateAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{D6B2854E-DD17-4B37-8712-50F8EC15FF4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraGeometrica", "CalculadoraGeometrica\CalculadoraGeometrica.csproj", "{3FDEFA95-C379-4132-B83A-E0CB29F14425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D6B2854E-DD17-4B37-8712-50F8EC15FF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B2854E-DD17-4B37-8712-50F8EC15FF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6B2854E-DD17-4B37-8712-50F8EC15FF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDEFA95-C379-4132-B83A-E0CB29F14425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDEFA95-C379-4132-B83A-E0CB29F14425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDEFA95-C379-4132-B83A-E0CB29F14425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDEFA95-C379-4132-B83A-E0CB29F14425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

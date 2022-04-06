@@ -28,6 +28,9 @@ namespace LambdaExpressions
             public delegate double Operator(double x, double y);
             public static void Operate(double num, double num2)
             {
+                Operator power = new Operator((x, y) => Math.Pow(x, y));
+                Console.WriteLine($"Power operation result is: {power(num, num2)}");
+
                 SelfOperator square = new SelfOperator(x => x * x);
                 Console.WriteLine($"The first square operation result is: {square(num)}\tThe second square operation result is: {square(num2)}");
 
@@ -56,6 +59,8 @@ namespace LambdaExpressions
         {
             public static void Lambda(double x, double y)
             {
+                Func<double, double, double> power = (x, y) => Math.Pow(x, y);
+                Console.WriteLine($"Power operation result is: {power(x, y)}");
 
                 Func<double, double> square = (x => x * x);
                 Console.WriteLine($"The first square operation result is: {square(x)}\tThe second square operation result is: {square(y)}");
@@ -79,6 +84,19 @@ namespace LambdaExpressions
                 Console.WriteLine($"First cos is: {cos(x)}\tSecond cos is: {cos(y)}");
             }
             
+        }
+
+        class ActionCalculator
+        {
+            public static void Lambda(double x, double y)
+            {
+                // Action no tiene retorno, es void
+                Action<double, double> addition = (x, y) =>
+                {
+                    Console.WriteLine($"Adittion equals to: {x + y}");
+                };
+                addition(x, y);
+            }
         }
     }
 }
