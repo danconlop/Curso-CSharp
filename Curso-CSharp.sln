@@ -19,15 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "Lambda
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraGeometrica", "CalculadoraGeometrica\CalculadoraGeometrica.csproj", "{3FDEFA95-C379-4132-B83A-E0CB29F14425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{1C0D12ED-5F9D-4DED-AEB0-A4B254D3B869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressions", "RegularExpressions\RegularExpressions.csproj", "{1C0D12ED-5F9D-4DED-AEB0-A4B254D3B869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDates", "WorkingWithDates\WorkingWithDates.csproj", "{A45CBE3C-A4D8-460F-BB16-697890FBDD89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithDates", "WorkingWithDates\WorkingWithDates.csproj", "{A45CBE3C-A4D8-460F-BB16-697890FBDD89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{73C9CE15-234C-498D-8AE6-86E0F0002931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{73C9CE15-234C-498D-8AE6-86E0F0002931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reminder", "Reminder\Reminder.csproj", "{E441A8F0-743C-4270-A02B-6DB12173F5CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reminder", "Reminder\Reminder.csproj", "{E441A8F0-743C-4270-A02B-6DB12173F5CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamParalelism", "ExamParalelism\ExamParalelism.csproj", "{3DDFA8A3-6CB8-4C5B-80BA-3F41D20774A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamParalelism", "ExamParalelism\ExamParalelism.csproj", "{3DDFA8A3-6CB8-4C5B-80BA-3F41D20774A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp", "BankApp\BankApp.csproj", "{2140A0D9-6AE8-4DB8-B469-DF8140325956}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO", "POO\POO.csproj", "{9FD91E1C-754F-4EE5-AF90-1FED37A537E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeControl", "EmployeeControl\EmployeeControl.csproj", "{E273614C-31C8-44E7-9556-090709B2F210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{3DDFA8A3-6CB8-4C5B-80BA-3F41D20774A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DDFA8A3-6CB8-4C5B-80BA-3F41D20774A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DDFA8A3-6CB8-4C5B-80BA-3F41D20774A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2140A0D9-6AE8-4DB8-B469-DF8140325956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2140A0D9-6AE8-4DB8-B469-DF8140325956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2140A0D9-6AE8-4DB8-B469-DF8140325956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2140A0D9-6AE8-4DB8-B469-DF8140325956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD91E1C-754F-4EE5-AF90-1FED37A537E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD91E1C-754F-4EE5-AF90-1FED37A537E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD91E1C-754F-4EE5-AF90-1FED37A537E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD91E1C-754F-4EE5-AF90-1FED37A537E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E273614C-31C8-44E7-9556-090709B2F210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E273614C-31C8-44E7-9556-090709B2F210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E273614C-31C8-44E7-9556-090709B2F210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E273614C-31C8-44E7-9556-090709B2F210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
